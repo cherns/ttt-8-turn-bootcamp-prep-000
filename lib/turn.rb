@@ -30,6 +30,7 @@ end
 
 def turn(board)
   
+<<<<<<< HEAD
 
   puts "Please enter 1-9:"
   movey = gets.strip
@@ -47,6 +48,8 @@ end
 def turnrejeect(board)
   
  loop do 
+=======
+>>>>>>> ce70eaddafed54b11f605e8455831b4d7e28c25f
   puts "Please enter 1-9"
   movey = gets.strip
   if valid_move?(board, input_to_index(movey))
@@ -55,5 +58,8 @@ def turnrejeect(board)
 else
   puts "Move not valid"
 end
+<<<<<<< HEAD
 end
+=======
+>>>>>>> ce70eaddafed54b11f605e8455831b4d7e28c25f
 end
